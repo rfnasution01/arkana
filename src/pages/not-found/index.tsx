@@ -1,3 +1,3 @@
 export default function NotFoundPage() {
-	return <p>Notfound Page</p>;
+	return <p className="px-[8rem] py-4">Page Not Found</p>;
 }

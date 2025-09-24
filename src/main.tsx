@@ -9,10 +9,10 @@ createRoot(document.getElementById("root")!).render(
 	<Providers>
 		<RouterProvider router={Router} />
 		<ToastContainer
-			theme={"colored"}
-			position={"bottom-right"}
-			closeOnClick={true}
-			limit={1500}
+			theme="colored"
+			position="bottom-right"
+			closeOnClick
+			autoClose={1500}
 		/>
 	</Providers>
 );
