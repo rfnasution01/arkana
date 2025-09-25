@@ -93,16 +93,16 @@ export function HomeConnected({
 						className="absolute top-0 left-0 h-full w-full"
 						style={{
 							background: `
-                linear-gradient(
-                  to top,
-                  rgba(151, 71, 255, 0.5) 10%,  
-                  rgba(151, 71, 255, 0) 80%    
-                )
-              `,
+								linear-gradient(
+								to top,
+								rgba(151, 71, 255, 0.5) 10%,  
+								rgba(151, 71, 255, 0) 80%    
+								)
+							`,
 						}}
 					/>
 					{/* Avatar */}
-					<div className="absolute bottom-0 transform -translate-y-1/2 left-4 md:left-12 lg:left-24">
+					<div className="absolute bottom-0 transform translate-y-1/2 left-4 md:left-12 lg:left-24">
 						<img
 							src={ImgAvatar}
 							alt="Avatar"
