@@ -27,7 +27,7 @@ export function Footer() {
 				</div>
 
 				{/* Explorer */}
-				<div className="flex flex-col items-center gap-4">
+				<div className="flex flex-col md:items-center gap-4">
 					<h5 className="font-mono font-bold text-lg">Explorer</h5>
 					<div className="flex flex-col gap-2 text-[#ccc] text-sm">
 						<Link
